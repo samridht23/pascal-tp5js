@@ -8,6 +8,7 @@ function setup() {
 function draw() {
   background(200);
   orbitControl();
-  rotateY(0.5);
-  box(30, 50);
+  rotateX(mouseX);
+  rotateY(mouseX);
+  box(100, 100);
 }

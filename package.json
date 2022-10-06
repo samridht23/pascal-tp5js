@@ -1,0 +1,16 @@
+{
+  "name": "pascal-tp5js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.html"
+  },
+  "dependencies": {
+    "p5": "^1.4.2"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.4.3",
+    "nodemon": "^2.0.20"
+  }
+}
